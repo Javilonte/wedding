@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/Hero-min1.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -273,7 +273,7 @@ Hero
   }
   p.intro {
     color: $txt-light;
-    font-size: 20px;
+    font-size: 35px;
     font-weight: 300;
     margin-bottom: 80px;
   }
@@ -382,6 +382,9 @@ Social share buttons
 /* ==========================================================================
 Intro
 ========================================================================== */
+.intro{
+ 
+}
 .intro span.icon {
   font-size: 40px;
   color: $accent-color;
@@ -405,6 +408,7 @@ Intro
     width: 100%;
     height: auto;
   }
+  
 }
 #intro p {
   text-align: center;
@@ -421,6 +425,7 @@ Features-stack
     padding-bottom: 0;
   }
   h3 {
+    font-size: 35px;
     margin: 0 0 20px 0;
   }
   span.icon {
@@ -552,6 +557,20 @@ Features-stack
 .events
 ========================================================================== */
 .events {
+  
+    .container {
+      min-height: 750px;
+  background: url('../img/Background2.png') center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+    }
+  
+
+    text-align: center;
   .leftcol {
     padding-right: 100px;
     border-right: solid 1px $keyline-color;
@@ -753,6 +772,16 @@ Google map
   height: 500px;
   width: 100%;
 }
+.section {
+  min-height: 750px;
+background: url('../img/Background3.png') center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position: relative;
+width: 100%;
+}
 #map-content-wrapper {
   position: relative;
   margin-top: -502px;
@@ -898,4 +927,5 @@ body.modal-open {
 }
 .modal-body {
   padding:25px;
+  border: $accent-color;
 }

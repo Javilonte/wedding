@@ -102,6 +102,9 @@ sub {
 img {
 	border: 0
 }
+.firstelder{
+	rotate: 90;
+}
 
 svg:not(:root) {
 	overflow: hidden

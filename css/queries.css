@@ -182,6 +182,7 @@
     }
 
     .intro-content {
+        background-image: url('../img/Background2.png');
         display: inline-block;
         width: 75%;
         margin-bottom: 30px;
@@ -215,7 +216,7 @@
     .hero-strip {
         margin-top: 0;
     }
-
+    
     .events .leftcol {
         padding: 0 15px;
         margin-bottom: 15px;
@@ -254,7 +255,20 @@
 
 @media screen and (max-width: 640px) {
     .hero .hero-content {
-        padding-top: 100%;
+        padding-top: 50%;
+    }
+    
+    .events .container {
+        
+            min-height: 750px;
+        background: url('../img/Background2.png') center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+          
     }
 
     #eng-pics .img-wrap i {
@@ -267,6 +281,16 @@
 
     #map-content-wrapper {
         margin-bottom: 0;
+        .container {
+            min-height: 750px;
+        background: url('../img/Background2.png') center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        position: relative;
+        width: 100%;
+          }
     }
     
     footer ul.footer-group {
@@ -292,8 +316,14 @@
 }
 
 @media screen and (max-width: 480px) {
+    .events .container {
+        background-image: url('../img/Background2.png');
+        background-size: contain;
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
     .hero .hero-content {
-        padding-top: 110%;
+        padding-top: 60%;
     }
     
     .hero .hero-content img {
@@ -311,7 +341,7 @@
     }
 
     .hero h1 {
-        font-size: 50px;
+        font-size: 90px;
     }
 
     .btn-margin-right {
