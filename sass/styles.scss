@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/Hero-min1.png') center center;
+  background: url('../img/Background5.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -382,9 +382,7 @@ Social share buttons
 /* ==========================================================================
 Intro
 ========================================================================== */
-.intro{
- 
-}
+
 .intro span.icon {
   font-size: 40px;
   color: $accent-color;
@@ -400,6 +398,7 @@ Intro
 .intro-content {
   display: inline-block;
   width: 80%;
+  
 }
 
 #intro {
@@ -560,7 +559,7 @@ Features-stack
   
     .container {
       min-height: 750px;
-  background: url('../img/Background2.png') center center;
+  background: url('../img/BackgroundResto1.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -180,14 +180,17 @@
         -webkit-transition-delay: 0.30s;
         transition-delay: 0.30s
     }
-
+    .intro{
+        background-image: url("../img/BackgroundResto1.png");
+    }
     .intro-content {
-        background-image: url('../img/Background2.png');
         display: inline-block;
         width: 75%;
         margin-bottom: 30px;
     }
-
+    img{ 
+        width: 500px;
+    }
     .last {
         margin: 0;
     }
@@ -241,7 +244,7 @@
     }
 
     .rsvp {
-        padding-top: 40px;
+        padding-top: 0px;
     }
 
     footer .social-share {
@@ -257,11 +260,17 @@
     .hero .hero-content {
         padding-top: 50%;
     }
+    img{
+        margin-bottom: 0;
+        object-fit: cover;
+        background-size: cover;
+        
+    }
     
     .events .container {
         
-            min-height: 750px;
-        background: url('../img/Background2.png') center center;
+        min-height: 750px;
+        background: url('../img/BackgroundResto1.png') center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -283,7 +292,7 @@
         margin-bottom: 0;
         .container {
             min-height: 750px;
-        background: url('../img/Background2.png') center center;
+        background: url('../img/BackgroundResto1.png') center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -317,7 +326,7 @@
 
 @media screen and (max-width: 480px) {
     .events .container {
-        background-image: url('../img/Background2.png');
+        background-image: url('../img/BackgroundResto1.png');
         background-size: contain;
         background-position: center; 
         background-repeat: no-repeat;
@@ -327,7 +336,7 @@
     }
     
     .hero .hero-content img {
-        width: 65%;
+        width: 80%;
     }
 
     .hero .btn {
