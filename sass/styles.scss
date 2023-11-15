@@ -789,9 +789,10 @@ width: 100%;
 #map-content {
   margin-top: 40px;
   padding: 50px 60px;
-  background: #fff;
+  background: #ffffff00;
+  background-image: url('../img/BackgroundMapa.png');
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
-  transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
+  transition: opacity 0.0s, visibility 0.6s, margin-top 0.5s;
 }
 #btn-show-content {
   padding: 20px;
@@ -816,7 +817,7 @@ width: 100%;
 RSVP form
 ========================================================================== */
 .rsvp {
-  padding-bottom: 140px;
+  padding-bottom: 0px;
   .rsvp-form {
     .rsvp-btn {
       padding: 15px 0;
