@@ -555,7 +555,7 @@ Features-stack
 /* ==========================================================================
 .events
 ========================================================================== */
-.events {
+.events1 {
   
     .container {
       min-height: 750px;
@@ -586,6 +586,96 @@ Features-stack
   }
 }
 
+.events1 {
+  
+  .container {
+    min-height: 750px;
+background: url('../img/BackgroundResto3.png') center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position: relative;
+width: 100%;
+  }
+
+
+  text-align: center;
+.leftcol {
+  padding-right: 100px;
+  border-right: solid 1px $keyline-color;
+}
+.rightcol {
+  padding-left: 100px;
+}
+
+.time {
+  font-size: 13px;
+  font-style: italic;
+  text-transform: lowercase;
+  color: $txt-primary;
+}
+}
+.events2 {
+  
+  .container {
+    min-height: 750px;
+background: url('../img/BackgroundResto2.png') center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position: relative;
+width: 100%;
+  }
+
+
+  text-align: center;
+.leftcol {
+  padding-right: 100px;
+  border-right: solid 1px $keyline-color;
+}
+.rightcol {
+  padding-left: 100px;
+}
+
+.time {
+  font-size: 13px;
+  font-style: italic;
+  text-transform: lowercase;
+  color: $txt-primary;
+}
+}
+.events3 {
+  
+  .container {
+    min-height: 750px;
+background: url('../img/BackgroundResto9.png') center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+position: relative;
+width: 100%;
+  }
+
+
+  text-align: center;
+.leftcol {
+  padding-right: 100px;
+  border-right: solid 1px $keyline-color;
+}
+.rightcol {
+  padding-left: 100px;
+}
+
+.time {
+  font-size: 13px;
+  font-style: italic;
+  text-transform: lowercase;
+  color: $txt-primary;
+}
+}
 /* ==========================================================================
 .blog
 ========================================================================== */
